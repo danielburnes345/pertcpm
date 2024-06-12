@@ -1,8 +1,9 @@
-[{"id":1,"text":"nigger","time":"4","stdate":"2","enddate":"4","completed":false},
-{"id":2,"text":"nigger","time":"4","stdate":"3","enddate":"5","preid":1,"completed":false},
-{"id":3,"text":"nigger","time":"4","stdate":"1","enddate":"4","preid":2,"completed":false},
-{"id":4,"text":"fuck you","time":"3","stdate":"4","enddate":"2","preid":3,"completed":false},
-{"id":5,"text":"fuck you","time":"3","stdate":"4","enddate":"2","preid":2,"completed":false},
-{"id":6,"text":"fuck you","time":"3","stdate":"4","enddate":"2","preid":4,"completed":false},
-{"id":7,"text":"i hope this works","time":"3","stdate":"4","enddate":"2","preid":2,"completed":false},
-{"id":9,"text":"fuck you","time":"3","stdate":"4","enddate":"2","preid":"4","completed":false}]
+[{"id":1,"text":"Start","time":4,"stdate":"2","preid":[],"completed":false,"ot":5,"pt":7,"mt":6,"perc":30},
+{"id":2,"text":"Rinse","time":4,"stdate":"3","preid":[1],"completed":false,"ot":6,"pt":8,"mt":7,"perc":40},
+{"id":3,"text":"Clean","time":4,"stdate":"1","preid":[2],"completed":false,"ot":3,"pt":5,"mt":4,"perc":50},
+{"id":5,"text":"Perfume","time":2,"stdate":"4","preid":[2],"completed":false,"ot":2,"pt":4,"mt":3,"perc":20},
+{"id":7,"text":"Replace stuff","time":"3","stdate":"4","preid":[2],"completed":false,"ot":2,"pt":4,"mt":3,"perc":60},
+{"id":4,"text":"Throw away stuff","time":"3","stdate":"4","preid":[3,5,7],"completed":false,"ot":5,"pt":7,"mt":6,"perc":30},
+{"id":6,"text":"Check","time":"3","stdate":"4","preid":[4],"completed":false,"ot":6,"pt":8,"mt":7,"perc":30},
+{"id":9,"text":"Correct","time":"3","stdate":"4","preid":[4],"completed":false,"ot":2,"pt":4,"mt":3,"perc":80},
+{"id":10,"text":"final","time":"3","stdate":"2","preid":[6,9],"completed":false,"ot":5,"pt":7,"mt":6,"perc":30}]
