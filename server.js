@@ -3,10 +3,17 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const filePath = 'db.json';
+const path = require('path');
 const cors = require('cors');
+app.use(express.static(path.join(__dirname, 'clien','build')));
+
+
 app.use(cors());
 app.use(express.json());
 // Define a route
+app.get('/',(req,res) => {
+  res.sendFile(path.join(__dirname, 'clien', 'build', 'index.html'));
+})
 app.post('/task', (req, res) => {
    let newTask =  ",\n" + JSON.stringify(req.body) + "]";
    fs.readFile(filePath, 'utf8', (err, data) => {
