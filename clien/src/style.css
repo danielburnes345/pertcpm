@@ -1,0 +1,294 @@
+.contenedor {
+
+display: flex;
+
+
+
+}
+
+
+.circulo{
+   
+    height: 50px; /*hola*/
+    width: 50px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    position:relative;
+    left:375px;
+    top:0px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin: 100px;
+}
+.contenedord {
+
+    display: flex;
+    
+    
+    
+    }
+
+.circulod{
+    
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    position:relative;
+    left:0px;
+    top:0px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin: 100px;
+}
+
+.contenedore {
+
+    display: flex;
+    
+    
+    
+    }
+
+.circuloe{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    position:relative;
+    left:750px;
+    bottom:250px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin: 100px;
+    
+}
+
+.contenedorf {
+
+    display: flex;
+    
+    
+    
+    }
+
+.circulof{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    position:relative;
+    left:375px;
+    bottom:250px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin: 100px;
+    
+}
+table,th,td {
+    border:1px solid black;
+}
+.container {
+    display: flex;
+    left:'0';
+    position: relative;
+    height: 500px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.node {
+    left:'0';
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    flex: 1;
+    left:'0';
+    position:absolute;
+    
+}
+.flex{
+    height: 10px;
+    width: 170px;
+    border-top: 5px solid chartreuse; /*Para poner linea cambiar "dashed" por "solid"*/
+    position:relative;
+    left:-70px;
+    top:25px;
+    margin: 100px;   
+}
+
+
+.flecha {
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid chartreuse;
+    position: absolute;
+    left:170px;
+    top:-22px;
+    
+}
+
+.flexb{
+    height: 10px;
+    width: 170px;
+    border-top: 5px dashed chartreuse; /*Para poner linea cambiar "dashed" por "solid"*/
+    position:relative;
+    left:-70px;
+    bottom:230px;
+    margin: 100px;   
+}
+
+
+.flechab {
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid chartreuse;
+    position: absolute;
+    left:170px;
+    bottom:-7px;
+    
+}
+
+.flexd{
+    height: 250px;
+    width: 10px;
+    border-left: 5px dashed chartreuse; /*Para poner linea cambiar "dashed" por "solid"*/
+    position:relative;
+    left:300px;
+    bottom:120px;
+       
+}
+
+
+.flechad {
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid chartreuse;
+    position: absolute;
+    left:5px;
+    bottom:235px;
+    
+}
+
+.flexe{
+    height:240px;
+    width: 10px;
+    border-left: 5px dashed chartreuse; /*Para poner linea cambiar "dashed" por "solid"*/
+    position:relative;
+    left:285px;
+    top:-375px;
+       
+}
+
+
+.flexp{
+    height: 230px;
+    width: 10px;
+    border-left: 5px dashed chartreuse; /*Para poner linea cambiar "dashed" por "solid"*/
+    position:relative;
+    left:-130px;
+    bottom:-150px;
+       
+}
+
+
+.flechap {
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid chartreuse;
+    position: absolute;
+    left:15px;
+    bottom:-20px;
+    
+}
+
+.flexq{
+    height:225px;
+    width: 10px;
+    border-left: 5px dashed chartreuse; /*Para poner linea cambiar "dashed" por "solid"*/
+    position:relative;
+    left:-145px;
+    top:-125px;
+       
+}
+
+
+.flechaq {
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid chartreuse; 
+    position: absolute;
+    left:15px;
+    top:-20px;
+    
+}
+
+.flexg{
+    height: 10px;
+    width: 170px;
+    border-top: 5px dashed chartreuse; /*Para poner linea cambiar "dashed" por "solid"*/
+    position:relative;
+    left:-20px;
+    bottom:-175px;
+    margin: -55px; 
+       
+}
+
+
+.flechag {
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid chartreuse;
+    position: absolute;
+    left:170px;
+    bottom:-7px;
+    
+}
+  
+.flexj{
+    height: 10px;
+    width: 170px;
+    border-top: 5px solid chartreuse; /*Para poner linea cambiar "dashed" por "solid"*/
+    position:relative;
+    left:70px;
+    bottom:40px;
+    margin: -85px; 
+       
+}
+
+
+.flechaj {
+
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid chartreuse;
+    position: absolute;
+    left:170px;
+    bottom:-7px;
+    
+}
+
+  
