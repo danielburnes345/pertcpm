@@ -225,7 +225,7 @@ return (
       <div>Loading...</div>
     ) : (generatePert())}</div>
     <form onSubmit={handleSubmit}>
-    <input type="number" id="prob" placeholder="Enter the probability to calculate"></input>
+    <input type="number" id="prob" placeholder="Probability to calculate"></input>
     <button type="submit">Calculate</button>
     </form>
     <div><div><div>Average time to finish project: {tree.prduration}</div><div>Probability to finish in {Prob}: {Pr}</div></div></div>
